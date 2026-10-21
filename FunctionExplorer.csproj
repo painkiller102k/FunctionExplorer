@@ -15,4 +15,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="FunctionExplorer.Tests/**/*.cs" />
+    <Content Remove="FunctionExplorer.Tests/**" />
+    <EmbeddedResource Remove="FunctionExplorer.Tests/**" />
+    <None Remove="FunctionExplorer.Tests/**" />
+  </ItemGroup>
+
 </Project>
